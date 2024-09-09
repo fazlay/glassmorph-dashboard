@@ -4,7 +4,6 @@ import CourseCard from "./CourseCard";
 import EventsCard from "./EventsCard";
 
 const ActiveJourney = () => {
-  // <motion.div initial={false} animate={{ x: 100 }} />
   return (
     <div className="flex flex-row">
       <div>
@@ -36,8 +35,8 @@ const ActiveJourney = () => {
           </p>
         </div>
         <div className="flex flex-row">
-          {[1, 2].map((item) => (
-            <CourseCard />
+          {[1, 2].map(() => (
+            <CourseCard key={Math.random()} />
           ))}
         </div>
       </div>

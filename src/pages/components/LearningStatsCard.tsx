@@ -6,8 +6,11 @@ const LearningStatsCard = () => {
   return (
     <>
       <div className=" flex flex-row  w-1/2 border-2 border-gray-600 rounded-[10px] relative py-6 p-8 ">
-        {[1, 2, 3].map((i) => (
-          <div className=" w-1/3 flex flex-col items-center  ">
+        {[1, 2, 3].map(() => (
+          <div
+            key={Math.random()}
+            className=" w-1/3 flex flex-col items-center  "
+          >
             <motion.img
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}

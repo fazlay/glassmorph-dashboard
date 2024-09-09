@@ -1,6 +1,6 @@
 import MainContentArea from "./components/MainContentArea";
 import Sidebar from "./components/Sidebar";
-import { montserrat } from "./fonts/fonts";
+import { montserrat } from "../fonts/fonts";
 
 export default function Home() {
   return (

@@ -9,6 +9,7 @@ export default function Home() {
     >
       <div className=" flex flex-row">
         <Sidebar></Sidebar>
+{/* Checking form Linx WSL */}
 
         <MainContentArea />
       </div>
